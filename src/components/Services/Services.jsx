@@ -9,23 +9,24 @@ const ServicesData = [
     img: Img2,
     name: "Biryani",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
+      "Aromatic basmati rice cooked with tender, spiced meat and rich Indian herbs, served with raita for the ultimate comfort meal.",
   },
   {
     id: 2,
     img: Img2,
-    name: "Chiken kari",
+    name: "Chicken Curry",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Succulent chicken pieces simmered in a flavorful curry made with tomatoes, onions, and a blend of traditional Indian spices.",
   },
   {
     id: 3,
     img: Img2,
-    name: "Cold Cofee",
+    name: "Cold Coffee",
     description:
-      "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
+      "Chilled and creamy cold coffee blended to perfection with rich coffee flavor, ice, and a touch of sweetness for a refreshing boost.",
   },
 ];
+
 const Services = () => {
   return (
     <>
@@ -36,11 +37,10 @@ const Services = () => {
             <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary ">
               Our Services
             </p>
-            <h1 className="text-3xl font-bold">Services</h1>
-            <p className="text-xs text-gray-400">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-              Perspiciatis delectus architecto error nesciunt,
-            </p>
+            <h1 className="text-3xl font-bold">Our Services</h1>
+<p className="text-xs text-gray-400">
+  Explore our delicious offerings crafted to satisfy every craving — from classic biryanis to refreshing beverages, all made with care and quality ingredients.
+</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-14 md:gap-5 place-items-center">
             {ServicesData.map((service) => (

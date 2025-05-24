@@ -16,8 +16,8 @@ const CoverBanner = () => {
     <div style={bgImage}>
       <div className="h-[200px] flex justify-center items-center text-white">
         <h1 className="text-3xl sm:text-4xl font-bold">
-          Lorem ipsum dolor sit amet.
-        </h1>
+  Savor Every Bite with Our Delicious Delights
+</h1>
       </div>
     </div>
   );

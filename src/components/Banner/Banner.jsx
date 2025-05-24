@@ -35,19 +35,15 @@ const Banner = () => {
               {/* text content section */}
               <div className="flex flex-col justify-center gap-6 sm:pt-0">
                 <h1 className="text-3xl sm:text-4xl font-bold">
-                  Lorem, ipsum dolor.
-                </h1>
-                <p className="text-sm text-gray-500 tracking-wide leading-5">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Eaque reiciendis inventore iste ratione ex alias quis magni at
-                  optio
-                  <br />
-                  <br />
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Beatae ab sed, exercitationem minima aliquid eligendi
-                  distinctio? Fugit repudiandae numquam hic quo recusandae.
-                  Excepturi totam ad nam velit quasi quidem aspernatur.
-                </p>
+  Experience Flavor Like Never Before
+</h1>
+<p className="text-sm text-gray-500 tracking-wide leading-5">
+  At our kitchen, every dish is crafted with passion, using the freshest ingredients and traditional recipes that bring warmth and flavor to every bite.
+  <br />
+  <br />
+  Whether you're craving a hearty biryani, a comforting curry, or a refreshing cold coffee — we've got something special to satisfy every palate. Discover the joy of good food, made just for you.
+</p>
+
                 <div className="flex gap-6">
                   <div>
                     <GrSecure className="text-4xl h-20 w-20 shadow-sm p-5 rounded-full bg-violet-100 dark:bg-violet-400" />

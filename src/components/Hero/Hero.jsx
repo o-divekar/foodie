@@ -53,10 +53,9 @@ const Hero = () => {
                 </span>{" "}
                 Zone
               </h1>
-              <p className="text-sm ">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-                reiciendis inventore iste ratione ex alias quis magni at optio
-              </p>
+             <p className="text-sm">
+  We take pride in delivering quality food and service that leaves a lasting impression. Your satisfaction is our top priority!
+</p>
               <div>
                 <button className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full">
                   Order Now
